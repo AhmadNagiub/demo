@@ -878,3 +878,57 @@ text-align: center;
         color: #2755A5;
     }
   }
+
+  footer{
+    background-color: #DDD;
+  }
+  footer .contactus{
+    height: 300px;
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: var(--mainColor);
+    padding: 10px;
+  }
+  footer .contactus h3{
+    text-align: center;
+    transform: translateX(60px);
+    margin-bottom: 15px;
+    color: white;
+  }
+  footer .contactus .contacts{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .contactus .contacts div{
+    width: 40%;
+    text-align: right;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  footer .contactus .contacts .location{
+    width: 80%;
+  }
+  footer form{
+    text-align: right;
+
+  }
+  footer .logo{
+width: 100%;
+height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .logo img{
+    width: 170px;
+    height: 150px;
+  }
+
+  footer .bottom{
+    background-color: var(--mainColor);
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+  }
